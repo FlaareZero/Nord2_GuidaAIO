@@ -68,7 +68,7 @@ Va sia su Android 11 che su Android 12!
 
 ### Procedimento
 
-- Collegatevi [qui](https://t.me/moddingopnord/6390) per avere accesso a tutte le versioni stock dei vari file. Ovviamente, vi servirà quello allineato alla vostra versione di Oxygen!
+- Collegatevi [qui](https://t.me/moddingopnord/6390) per avere accesso a tutte le versioni stock dei vari boot.img disponibili. Ovviamente, vi servirà quello allineato alla vostra versione di Oxygen!
 - Scaricate l'ultima versione dell'APK Magisk dal [Github Ufficiale](https://github.com/topjohnwu/Magisk/releases), e installatela.
 - Apritela, selezionate 'Installa' e poi `Seleziona e Applica su File`
 - Selezionate il file scaricato da Telegram
@@ -81,4 +81,23 @@ Va sia su Android 11 che su Android 12!
 - Riavviate il device con il comando `fastboot reboot`
 
 Voilà! Il Vostro Nord 2 ha anche il root adesso :)
+
+Per l'unroot basterà riscaricare il boot.img ed installarlo da Fastboot come citato sopra, niente di più semplice!
+
+## Backup/Ripristino tramite MTKClient
+
+Questo è il metodo più efficace per ripristinare il vostro device come di fabbrica.
+
+- Prima di fare qualsiasi cosa, è consigliato, da MTKClient, salvare tramite la voce Read le seguenti partizioni:
+  - seccfg , persist, nvcfg , nvdata , nvram , protect1 , protect2
+Così sarete sempre coperti in caso di perdita IMEI, Wi-Fi non funzionante, che può capitare ripristinando il device con un backup magari diverso da quelli di Giovix92, oppure da Custom Rom poco conosciute.
+
+- Seguite l'installazione del programma dalla [repo ufficiale](https://github.com/bkerler/mtkclient) o del [prebuilt se volete la via semplice](https://t.me/OnePlusNord2GlobalOfficial/156958). Vi serviranno anche i [Driver MTK](https://drive.google.com/file/d/1TPbW-v9-yOrzH15OaHmsPQad420mULeF/view)
+Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il device in BROM mode. 
+
+- Essenzialmente, spegnete il device, e con il programma aperto in background tenete premuto vol - , vol + e collegate il cavo USB mentre lo fate. 
+- Dovreste vedere il programma riconoscere il telefono. 
+- Aspettate, e non appena il programma si sarà avviato, potete staccare le dita dai tasti volume. 
+- Da qua in poi, basterà avere a disposizione un backup completo (disponibile [qui](https://t.me/moddingopnord/6390) per tutte le versioni attualmente disponibili) e potrete tornare (selezionando la voce Write, poi Select Directory e indicandogli la directory dove avete scompattato lo zip del backup) quando volete alla versione stock. 
+**Attenzione, servirà del tempo per ripristinare tutto, quindi prendetevi un caffè, fate una passeggiata nel frattempo :)**
 
