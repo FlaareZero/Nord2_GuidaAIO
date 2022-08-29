@@ -95,9 +95,9 @@ Così sarete sempre coperti in caso di perdita IMEI, Wi-Fi non funzionante, che 
 - Seguite l'installazione del programma dalla [repo ufficiale](https://github.com/bkerler/mtkclient) o del [prebuilt se volete la via semplice](https://t.me/OnePlusNord2GlobalOfficial/156958). Vi serviranno anche i [Driver MTK](https://drive.google.com/file/d/1TPbW-v9-yOrzH15OaHmsPQad420mULeF/view) per far collegare il device al pc correttamente. 
 Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il device in BROM mode. Le riporto per comodità e per informazione:
 
-- Essenzialmente, spegnete il device, e con il programma aperto in background tenete premuto vol - , vol + e collegate il cavo USB mentre lo fate. 
-- Dovreste vedere il programma riconoscere il telefono. 
-- Aspettate, e non appena il programma si sarà avviato, potete staccare le dita dai tasti volume. 
-- Da qua in poi, basterà avere a disposizione un backup completo (disponibile [qui](https://t.me/moddingopnord/6390) per tutte le versioni attualmente disponibili) e potrete tornare (selezionando la voce Write, poi Select Directory e indicandogli la directory dove avete scompattato lo zip del backup) quando volete alla versione stock. 
-**Attenzione, servirà del tempo per ripristinare tutto, quindi prendetevi un caffè, fate una passeggiata nel frattempo :)**
+  - Essenzialmente, spegnete il device, e con il programma aperto in background tenete premuto vol - , vol + e collegate il cavo USB mentre lo fate. 
+  - Dovreste vedere il programma riconoscere il telefono. 
+  - Aspettate, e non appena il programma si sarà avviato, potete staccare le dita dai tasti volume. 
+  - Da qua in poi, basterà avere a disposizione un backup completo (disponibile [qui](https://t.me/moddingopnord/6390) per tutte le versioni attualmente disponibili) e   potrete tornare (selezionando la voce Write, poi Select Directory e indicandogli la directory dove avete scompattato lo zip del backup) quando volete alla versione     stock. 
+  **Attenzione, servirà del tempo per ripristinare tutto, quindi prendetevi un caffè, fate una passeggiata nel frattempo :)**
 
