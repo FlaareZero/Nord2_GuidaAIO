@@ -1,5 +1,11 @@
 # Tutorials per Nord 2 in Italiano 
 
+## Sommario
+
+- [Sblocco Bootloader](## Sblocco Bootloader) e [Re-Lock del Bootloader](## Re-Lock del Bootloader)
+- [Rooting del dispositivo](## Rooting del dispositivo)
+- [Backup / Ripristino del dispositivo tramite MTKClient](## Backup/Ripristino tramite MTKClient)
+
 ## Sblocco Bootloader 
 La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://gist.githubusercontent.com/Giovix92/c7e69123dbc51adf3f3a26f9c3c0208e/raw/67f889028f68d929b7ada0db846980fb599a2253/Nord2Guides.md)
 
