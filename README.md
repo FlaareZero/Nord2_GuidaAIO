@@ -30,7 +30,7 @@ Ribloccare il bootloader può essere un pò tedioso alle volte, seppur il proced
 - Precedenti e ancora attive installazioni di TWRP / OrangeFox / Custom recovery varie;
 
 ### Procedimento
--- Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi:
+- Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi:
   - Se siete su Android 11, potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
   - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
 - Scrivete, appunto, `fastboot flashing lock`, poi `fastboot reboot`.
