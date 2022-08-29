@@ -2,7 +2,7 @@
 
 ## Sommario
 
-- [Sblocco Bootloader](##Sblocco Bootloader) e [Re-Lock del Bootloader](##Re-Lock del Bootloader)
+- [Sblocco Bootloader](#sblocco-bootloader) e [Re-Lock del Bootloader](#Re-Lock-del-Bootloader)
 - [Rooting del dispositivo](##Rooting del dispositivo)
 - [Backup / Ripristino del dispositivo tramite MTKClient](##Backup/Ripristino tramite MTKClient)
 
