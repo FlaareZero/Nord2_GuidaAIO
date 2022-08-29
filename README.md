@@ -13,10 +13,10 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
 ### Procedimento
 
 - Apri qualunque finestra di cmd / Powershell / Terminale / Console sul vostro pc (Non so cosa usate, quindi vado un pò a caso lol) 
-- Assicuratevi di aver correttamente installato ADB (dovreste essere in grado di poter digitare "adb devices" sul vostro terminale e vedere qualcosa. In caso contrario, vi invito a settare ADB cercando un pochetto su Google)
+- Assicuratevi di aver correttamente installato ADB (dovreste essere in grado di poter digitare `adb devices` sul vostro terminale e vedere qualcosa. In caso contrario, vi invito a settare ADB cercando un pochetto su Google)
 - Dalle opzioni sviluppatore (visibili premend 7 volte su Numero Build) attivate Sblocco OEM e Debug USB
 - Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
   - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
-  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell "adb reboot fastboot".
+  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
 - Scrivete sul vostro terminale "fastboot flashing unlock" per iniziare il processo di sblocco. Dopodichè, premete Vol + per accettare.
 - Dopo qualche secondo, potete riavviare nel sistema con il comando: `fastboot reboot`
