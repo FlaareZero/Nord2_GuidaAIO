@@ -54,3 +54,31 @@ Se vi capita di incappare nella seguente scritta: "Boot image destroyed/corrupte
   
 - Eseguite `fastboot flashing lock`, poi `fastboot reboot` per completare il processo.
 - Il vostro Nord è tornato ufficiale! Congratulazioni!
+
+
+## Rooting del dispositivo
+
+Il Root sul Nord 2 comporterà il patching del boot.img relativo alla vostra versione di OxygenOS installata. Si, un pò diverso dal solito :)
+Va sia su Android 11 che su Android 12!
+
+### Prerequisiti
+
+- LEGGETE E RILEGGETE GLI STEPS PRIMA DI ANDARE AVANTI! Non sia mai che non capite :p
+- Telefono caricato al 100%, onde evitare problemi
+
+### Procedimento
+
+- Collegatevi [qui](https://t.me/moddingopnord/6390) per avere accesso a tutte le versioni stock dei vari file. Ovviamente, vi servirà quello allineato alla vostra versione di Oxygen!
+- Scaricate l'ultima versione dell'APK Magisk dal [Github Ufficiale](https://github.com/topjohnwu/Magisk/releases), and install it
+- Apritela, selezionate 'Installa' e poi 'Seleziona e Applica su File'
+- Selezionate il file scaricato da Telegram
+- Lasciate che lo patchi.
+- Copiate quel file sul vostro pc (in qualunque modo vi venga più comodo)
+- Riavviate il device in Modalità Fastboot
+  - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
+  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
+- Supponendo che il file si chiami 'vattellapesca.img', Il comando sarà, da fastboot: `fastboot flash boot vattellapesca.img`. Cambiate il nome adeguatamente!
+- Riavviate il device con il comando `fastboot reboot`
+
+Voilà! Il Vostro Nord 2 ha anche il root adesso :)
+
