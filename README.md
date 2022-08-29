@@ -92,8 +92,8 @@ Questo è il metodo più efficace per ripristinare il vostro device come di fabb
   - seccfg , persist, nvcfg , nvdata , nvram , protect1 , protect2
 Così sarete sempre coperti in caso di perdita IMEI, Wi-Fi non funzionante, che può capitare ripristinando il device con un backup magari diverso da quelli di Giovix92, oppure da Custom Rom poco conosciute.
 
-- Seguite l'installazione del programma dalla [repo ufficiale](https://github.com/bkerler/mtkclient) o del [prebuilt se volete la via semplice](https://t.me/OnePlusNord2GlobalOfficial/156958). Vi serviranno anche i [Driver MTK](https://drive.google.com/file/d/1TPbW-v9-yOrzH15OaHmsPQad420mULeF/view)
-Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il device in BROM mode. 
+- Seguite l'installazione del programma dalla [repo ufficiale](https://github.com/bkerler/mtkclient) o del [prebuilt se volete la via semplice](https://t.me/OnePlusNord2GlobalOfficial/156958). Vi serviranno anche i [Driver MTK](https://drive.google.com/file/d/1TPbW-v9-yOrzH15OaHmsPQad420mULeF/view) per far collegare il device al pc correttamente. 
+Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il device in BROM mode. Le riporto per comodità e per informazione:
 
 - Essenzialmente, spegnete il device, e con il programma aperto in background tenete premuto vol - , vol + e collegate il cavo USB mentre lo fate. 
 - Dovreste vedere il programma riconoscere il telefono. 
