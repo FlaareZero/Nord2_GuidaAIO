@@ -20,3 +20,37 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
   - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
 - Scrivete sul vostro terminale `fastboot flashing unlock` per iniziare il processo di sblocco. Dopodichè, premete Vol + per accettare.
 - Dopo qualche secondo, potete riavviare nel sistema con il comando: `fastboot reboot`
+
+## Re-Lock del Bootloader
+
+Ribloccare il bootloader può essere un pò tedioso alle volte, seppur il procedimento sia simile a sopra, apparte per il comando usato, che è  `fastboot flashing lock`. Può variare soprattutto per i seguenti motivi:
+
+- Precedenti installazioni di Magisk/Zygisk ancora attive sul device;
+- Altre Mod installate, se ne avete qualcuna;
+- Precedenti e ancora attive installazioni di TWRP / OrangeFox / Custom recovery varie;
+
+### Procedimento
+-- Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi:
+  - Se siete su Android 11, potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
+  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
+- Scrivete, appunto, `fastboot flashing lock`, poi `fastboot reboot`.
+- Fatto!
+
+Se vi capita di incappare nella seguente scritta: "Boot image destroyed/corrupted" condita da grande triangolo rosso, calma: E' tutto sotto controllo. Miglior cosa da fare è:
+
+- Basterà usare un backup (gentilmente offerto da Giovix92 nel suo gist [qui](https://files.giovix92.workers.dev/0:/OnePlus%20Nord%202/Stock%20ROMs/)) che combacia con la versione di OXygenOS che avete sul vostro device. Ad esempio, se siete tornati ad A11 con il pacchetto di Rollback, avrete la A20 installata.
+  - Le immagini da avere a disposizione sono le seguenti: dtbo, recovery, vbmeta, boot.
+- Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
+  - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
+  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
+  - EXTRA: Se non potete usare ADB per qualche strano motivo (boh, forse siete bloccati in Fastboot) vi basterà usare `fastboot reboot fastboot` per riavviare in Fastbootd da, per esempio, la modalità bootloader.
+  - EXTRA 2:Se non potete usare la modalità Fastbootd, FERMATEVI. Vi servirà MTKClient (spegnete il telefono e tenete premuti i tasti vol - , vol + e power, da PC scaricate MTKClient da [qui](https://t.me/OnePlusNord2GlobalOfficial/156958) e installate prima i Drivers, poi aprite MTKClient_Gui. Una volta aperto, collegate il telefono al PC)
+- Se siete su Fastboot, usate i seguenti comandi per caricarli sul vostro device: 
+  
+  fastboot flash boot boot.img
+  fastboot flash recovery recovery.img
+  fastboot flash vbmeta vbmeta.img
+  fastboot flash dtbo dtbo.img`
+  
+- Eseguite `fastboot flashing lock`, poi `fastboot reboot` per completare il processo.
+- Il vostro Nord è tornato ufficiale! Congratulazioni!
