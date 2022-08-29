@@ -69,8 +69,8 @@ Va sia su Android 11 che su Android 12!
 ### Procedimento
 
 - Collegatevi [qui](https://t.me/moddingopnord/6390) per avere accesso a tutte le versioni stock dei vari file. Ovviamente, vi servirà quello allineato alla vostra versione di Oxygen!
-- Scaricate l'ultima versione dell'APK Magisk dal [Github Ufficiale](https://github.com/topjohnwu/Magisk/releases), and install it
-- Apritela, selezionate 'Installa' e poi 'Seleziona e Applica su File'
+- Scaricate l'ultima versione dell'APK Magisk dal [Github Ufficiale](https://github.com/topjohnwu/Magisk/releases), e installatela.
+- Apritela, selezionate 'Installa' e poi `Seleziona e Applica su File`
 - Selezionate il file scaricato da Telegram
 - Lasciate che lo patchi.
 - Copiate quel file sul vostro pc (in qualunque modo vi venga più comodo)
