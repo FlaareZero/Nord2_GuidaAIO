@@ -38,7 +38,7 @@ Ribloccare il bootloader può essere un pò tedioso alle volte, seppur il proced
 
 Se vi capita di incappare nella seguente scritta: "Boot image destroyed/corrupted" condita da grande triangolo rosso, calma: E' tutto sotto controllo. Miglior cosa da fare è:
 
-- Basterà usare un backup (gentilmente offerto da Giovix92 nel suo gist [qui](https://files.giovix92.workers.dev/0:/OnePlus%20Nord%202/Stock%20ROMs/)) che combacia con la versione di OXygenOS che avete sul vostro device. Ad esempio, se siete tornati ad A11 con il pacchetto di Rollback, avrete la A20 installata.
+- Basterà usare un backup (gentilmente offerto da Giovix92 nel suo gist [qui](https://files.giovix92.workers.dev/0:/OnePlus%20Nord%202/Stock%20ROMs/)) che combacia con la versione di OxygenOS che avete sul vostro device. Ad esempio, se siete tornati ad A11 con il pacchetto di Rollback, avrete la A20 installata.
   - Le immagini da avere a disposizione sono le seguenti: dtbo, recovery, vbmeta, boot.
 - Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
   - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
@@ -47,10 +47,10 @@ Se vi capita di incappare nella seguente scritta: "Boot image destroyed/corrupte
   - EXTRA 2:Se non potete usare la modalità Fastbootd, FERMATEVI. Vi servirà MTKClient (spegnete il telefono e tenete premuti i tasti vol - , vol + e power, da PC scaricate MTKClient da [qui](https://t.me/OnePlusNord2GlobalOfficial/156958) e installate prima i Drivers, poi aprite MTKClient_Gui. Una volta aperto, collegate il telefono al PC)
 - Se siete su Fastboot, usate i seguenti comandi per caricarli sul vostro device: 
   
-  fastboot flash boot boot.img
-  fastboot flash recovery recovery.img
-  fastboot flash vbmeta vbmeta.img
-  fastboot flash dtbo dtbo.img`
+  - fastboot flash boot boot.img
+  - fastboot flash recovery recovery.img
+  - fastboot flash vbmeta vbmeta.img
+  - fastboot flash dtbo dtbo.img`
   
 - Eseguite `fastboot flashing lock`, poi `fastboot reboot` per completare il processo.
 - Il vostro Nord è tornato ufficiale! Congratulazioni!
