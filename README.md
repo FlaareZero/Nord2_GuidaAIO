@@ -18,5 +18,5 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
 - Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
   - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
   - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
-- Scrivete sul vostro terminale "fastboot flashing unlock" per iniziare il processo di sblocco. Dopodichè, premete Vol + per accettare.
+- Scrivete sul vostro terminale `fastboot flashing unlock` per iniziare il processo di sblocco. Dopodichè, premete Vol + per accettare.
 - Dopo qualche secondo, potete riavviare nel sistema con il comando: `fastboot reboot`
