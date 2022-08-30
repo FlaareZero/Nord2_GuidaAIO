@@ -107,3 +107,4 @@ Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il de
   - Da qua in poi, basterà avere a disposizione un backup completo (disponibile [qui](https://t.me/moddingopnord/6390) per tutte le versioni attualmente disponibili) e   potrete tornare (selezionando la voce Write, poi Select Directory e indicandogli la directory dove avete scompattato lo zip del backup) quando volete alla versione     stock. 
   **Attenzione, servirà del tempo per ripristinare tutto, quindi prendetevi un caffè, fate una passeggiata nel frattempo :)**
 
+## Installazione di una Custom Rom
