@@ -11,7 +11,7 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
 
 ### Prerequisiti
 
-- Un Nord 2, varianti incluse (ovvio) 
+- Un Nord 2, varianti incluse (ovvio), possibilmente con la OxygenOS basata su Android 11 (quindi se siete su A12 dovrete fare [il rollback](https://community.oneplus.com/thread?id=1596759&fromCircle=true) scaricando il pacchetto corretto per la variante del vostro Nord.
 - Un backup completo del tuo dispositivo (Vi ricordo che sbloccare il dispositivo **CANCELLERA' TUTTI I DATI SUL TELEFONO!**)
 - ADB funzionante sul vostro PC
 - Delle conoscenze quantomeno basiche di quello che state per fare. Sai, vorremmo evitare che fotteste a vita il vostro telefono 
@@ -23,7 +23,7 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
 - Dalle opzioni sviluppatore (visibili premend 7 volte su Numero Build) attivate Sblocco OEM e Debug USB
 - Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
   - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
-  - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
+  - Se siete su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
 - Scrivete sul vostro terminale `fastboot flashing unlock` per iniziare il processo di sblocco. Dopodichè, premete Vol + per accettare.
 - Dopo qualche secondo, potete riavviare nel sistema con il comando: `fastboot reboot`
 
@@ -47,7 +47,7 @@ Se vi capita di incappare nella seguente scritta: "Boot image destroyed/corrupte
 - Basterà usare un backup (gentilmente offerto da Giovix92 nel suo gist [qui](https://files.giovix92.workers.dev/0:/OnePlus%20Nord%202/Stock%20ROMs/)) che combacia con la versione di OxygenOS che avete sul vostro device. Ad esempio, se siete tornati ad A11 con il pacchetto di Rollback, avrete la A20 installata.
   - Le immagini da avere a disposizione sono le seguenti: dtbo, recovery, vbmeta, boot.
 - Riavviate il vostro device (connesso al PC) in Fastboot in uno dei seguenti modi
-  - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
+  - Se siete su Android 11 (E vi consiglio ASSOLUTAMENTE di esserci, onde evitare problemi di bootloop o simili), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
   - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
   - EXTRA: Se non potete usare ADB per qualche strano motivo (boh, forse siete bloccati in Fastboot) vi basterà usare `fastboot reboot fastboot` per riavviare in Fastbootd da, per esempio, la modalità bootloader.
   - EXTRA 2:Se non potete usare la modalità Fastbootd, FERMATEVI. Vi servirà MTKClient (spegnete il telefono e tenete premuti i tasti vol - , vol + e power, da PC scaricate MTKClient da [qui](https://t.me/OnePlusNord2GlobalOfficial/156958) e installate prima i Drivers, poi aprite MTKClient_Gui. Una volta aperto, collegate il telefono al PC)
@@ -81,7 +81,7 @@ Va sia su Android 11 che su Android 12!
 - Lasciate che lo patchi.
 - Copiate quel file sul vostro pc (in qualunque modo vi venga più comodo)
 - Riavviate il device in Modalità Fastboot
-  - Se siete su Android 11 (E vi consiglio di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
+  - Se siete su Android 11 (E vi consiglio CALDAMENTE di esserci), potrete riavviare in recovery con la combinazione di tasti Vol - e Power.
   - Se site su Android 12, dovrete scrivere sul vostro terminale / console / cmd / powershell `adb reboot fastboot`.
 - Supponendo che il file si chiami 'vattellapesca.img', Il comando sarà, da fastboot: `fastboot flash boot vattellapesca.img`. Cambiate il nome adeguatamente!
 - Riavviate il device con il comando `fastboot reboot`
