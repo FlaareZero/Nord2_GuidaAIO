@@ -106,5 +106,7 @@ Basterà seguire letteralmente le istruzioni a schermo, in modo da avviare il de
   - Aspettate, e non appena il programma si sarà avviato, potete staccare le dita dai tasti volume. 
   - Da qua in poi, basterà avere a disposizione un backup completo (disponibile [qui](https://t.me/moddingopnord/6390) per tutte le versioni attualmente disponibili) e   potrete tornare (selezionando la voce Write, poi Select Directory e indicandogli la directory dove avete scompattato lo zip del backup) quando volete alla versione     stock. 
   **Attenzione, servirà del tempo per ripristinare tutto, quindi prendetevi un caffè, fate una passeggiata nel frattempo :)**
+  
+  - EXTRA: se il vostro telefono non dovesse più uscire dalla BROM mode, restando a schermo spento quando provate a riavviarlo, e l'unico modo che avete è per l'appunto riavviarlo in BROM, basterà riscrivere il preloader. Da MTKClient, andate su Flash, poi selezionate Write Preloader e gli caricate [questo file qui](https://t.me/OnePlusNord2GlobalOfficial/158512).
 
 ## Installazione di una Custom Rom
