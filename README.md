@@ -11,7 +11,7 @@ La seguente guida è stata tradotta e adattata da quella di [Giovix92](https://g
 
 ### Prerequisiti
 
-- Un Nord 2, varianti incluse (ovvio), possibilmente con la OxygenOS basata su Android 11 (quindi se siete su A12 dovrete fare [il rollback](https://community.oneplus.com/thread?id=1596759&fromCircle=true) scaricando il pacchetto corretto per la variante del vostro Nord.
+- Un Nord 2, varianti incluse (ovvio), possibilmente con la OxygenOS basata su Android 11 (quindi se siete su A12 / C.10 dovrete fare [il rollback](https://community.oneplus.com/thread?id=1596759&fromCircle=true) A FORZA, specifico, A FORZA, scaricando il pacchetto corretto per la variante del vostro Nord.
 - Un backup completo del tuo dispositivo (Vi ricordo che sbloccare il dispositivo **CANCELLERA' TUTTI I DATI SUL TELEFONO!**)
 - ADB funzionante sul vostro PC
 - Delle conoscenze quantomeno basiche di quello che state per fare. Sai, vorremmo evitare che fotteste a vita il vostro telefono 
